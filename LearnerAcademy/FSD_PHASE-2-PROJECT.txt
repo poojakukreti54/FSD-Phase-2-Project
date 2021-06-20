@@ -1,0 +1,27 @@
+
+
+Name 			: 	Pooja Kukreti
+
+emailid 		: 	poojakukreti406@gmail.com/poojakukreti54@gmail.com
+
+
+github link 		: 	poojakukreti54/FSD-Phase-2-Project (or) https://github.com/poojakukreti54/FSD-Phase-2-Project
+
+Database Used		: 	mysql
+
+IDE 			: 	Eclipse
+
+Technology Used 	: 	HTML,CSS,JavaScript, Java, JSP, Servlets,JDBC
+
+Browser 		: 	Mozilla Firefox
+
+Credentials for login   : 	Name - "Admin" ; Password - "Admin"
+
+Database user 		:   	root
+
+Database password	:	Call@100
+
+Database name		:	learner_academy_db
+
+
+Tables used		: 	4 (students , teachers , subjects, classs)

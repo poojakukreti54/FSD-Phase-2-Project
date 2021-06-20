@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<style>
+
+body{
+    background-image: url('images/pic4.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:100%;
+    
+    text-align: left;
+}
+
+.topnav{
+    margin: 0;
+    margin-left: 0%;
+    background-color: #1e212d;
+}
+
+.home{
+    color:#fff;
+    font-size: 15px;
+    background-color:#f55c47;
+    border: black;
+    border-radius: 10%;
+    size: 200%;
+    padding:10px 15px;
+    text-align: center;
+    box-shadow: 3px 9px black;
+    outline: none;
+    cursor: pointer;
+    margin: 20px 30px;
+} 
+.home:hover{
+    background-color:     #c84b31;
+}
+
+.home:active{
+    background-color: #556052;
+    box-shadow: 5px 5px #ff8e71;
+    transform: translateY(3px);
+}
+
+.changepass{
+    color:#fff;
+    font-size: 15px;
+    background-color:#1e6f5c;
+    border: black;
+    border-radius: 4%;
+    size: 200%;
+    padding:10px 15px;
+    text-align: center;
+    box-shadow: 3px 9px black;
+    outline: none;
+    cursor: pointer;
+    margin: 20px 30px;
+} 
+.changepass:hover{
+    background-color:     #29bb89;
+}
+
+.changepass:active{
+    background-color: #e6dd3b;
+    box-shadow: 5px 5px #666;
+    transform: translateY(3px);
+}
+
+
+.lms{
+    color:#fff;
+    font-size: 15px;
+    background-color:#907fa4;
+    border: black;
+    border-radius: 4%;
+    size: 200%;
+    padding:10px 15px;
+    text-align: center;
+    box-shadow: 3px 9px black;
+    outline: none;
+    cursor: pointer;
+    margin: 20px 30px;
+} 
+.lms:hover{
+    background-color:     #a58faa;
+}
+
+.lms:active{
+    background-color: #a6d6d6;
+    box-shadow: 5px 5px #666;
+    transform: translateY(3px);
+}
+
+
+.logoff{
+    color:#fff;
+    font-size: 15px;
+    background-color:#e40017;
+    border: black;
+    border-radius: 10%;
+    size: 200%;
+    padding:10px 15px;
+    text-align: center;
+    box-shadow: 3px 9px black;
+    outline: none;
+    cursor: pointer;
+    margin: 20px 30px;
+} 
+.logoff:hover{
+    background-color:     #91091e;
+}
+
+.logoff:active{
+    background-color: #556052;
+    box-shadow: 5px 5px #ff8e71;
+    transform: translateY(3px);
+}
+
+</style>
+</head>
+<body>
+
+
+<div class="topnav">
+    <a href="dashboard.html"><button class="home"> Home </button></a>
+    <!-- <button class="changepass">Change Password</button> -->
+    <a href="header.jsp"><button class="lms"> Go to LMS</button></a>
+    <a href = "LogoutServlet"><button class="logoff">Logout </button></a>
+    
+    </div>
+
+</body>
+</html>
